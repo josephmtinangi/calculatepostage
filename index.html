@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Calculate Postage</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<style>
+			
+		</style>
+	</head>
+	<body>
+
+		<div id="app">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h2>Calculate Postage</h2>
+
+						<div role="tabpanel">
+							<!-- Nav tabs -->
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active">
+									<a href="#domestic" aria-controls="domestic" role="tab" data-toggle="tab"><i class="fa fa-plane"></i> Domestic</a>
+								</li>
+								<li role="presentation">
+									<a href="#international" aria-controls="international" role="international" data-toggle="tab"><i class="fa fa-home"></i> International</a>
+								</li>
+							</ul>
+						
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div role="tabpanel" class="tab-pane active" id="domestic">
+									
+									<h3>Domestic</h3>
+
+									<form action="#" class="form-inline" role="form">
+										<div class="form-group">
+											<label for="service">Service</label>
+											<select id="service" class="form-control">
+												<option value="">-Select-</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="">Register/EMS</label>
+											<select id="" class="form-control">
+												<option value="">-Select-</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="from">From</label>
+											<select class="form-control">
+												<option value="">-Select-</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="to">To</label>
+											<select class="form-control">
+												<option value="">-Select-</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="weight">Weight</label>
+											<input type="text" class="form-control" placeholder="Weight" title="Weight">
+										</div>
+										<button type="button" class="btn btn-danger">CALCULATE</button>
+										<button type="button" class="btn btn-primary">CLEAR</button>
+									</form>
+
+								</div>
+								<div role="tabpanel" class="tab-pane" id="international">
+
+									<h3>International</h3>
+
+
+									<form action="#" class="form-inline" role="form">
+										<div class="form-group">
+											<label for="service">Service</label>
+											<select id="service" class="form-control">
+												<option value="">-Select-</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="">Register/EMS</label>
+											<select id="" class="form-control">
+												<option value="">-Select-</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="from">From</label>
+											<select class="form-control">
+												<option value="">-Select-</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="to">To</label>
+											<select class="form-control">
+												<option value="">-Select-</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="weight">Weight</label>
+											<input type="text" class="form-control" placeholder="Weight" title="Weight">
+										</div>
+										<button type="button" class="btn btn-danger">CALCULATE</button>
+										<button type="button" class="btn btn-primary">CLEAR</button>
+									</form>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>
